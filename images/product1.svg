@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- 背景 -->
+  <rect width="400" height="300" fill="#f8f9fc" />
+  
+  <!-- 产品图标 - 日程管理系统 -->
+  <circle cx="200" cy="120" r="60" fill="#4e73df" />
+  
+  <!-- 日历图标 -->
+  <rect x="170" y="90" width="60" height="60" rx="5" fill="white" stroke="#1cc88a" stroke-width="3" />
+  
+  <!-- 日历线条 -->
+  <line x1="170" y1="110" x2="230" y2="110" stroke="#1cc88a" stroke-width="2" />
+  <line x1="185" y1="120" x2="185" y2="140" stroke="#1cc88a" stroke-width="2" />
+  <line x1="200" y1="120" x2="200" y2="140" stroke="#1cc88a" stroke-width="2" />
+  <line x1="215" y1="120" x2="215" y2="140" stroke="#1cc88a" stroke-width="2" />
+  
+  <!-- 智能图标 -->
+  <circle cx="220" cy="85" r="15" fill="#f6c23e" />
+  <text x="220" y="90" font-family="Arial" font-size="16" text-anchor="middle" fill="white">AI</text>
+  
+  <!-- 产品名称 -->
+  <text x="200" y="220" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#5a5c69">智能日程管理系统</text>
+  
+  <!-- 产品简介 -->
+  <text x="200" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#858796">基于AI的个性化日程管理解决方案</text>
+</svg>

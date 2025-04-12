@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梦笔笙花工作室</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logo.jpg" alt="梦笔笙花工作室" height="40">
+                <span class="ms-2">梦笔笙花工作室</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#announcements">官方公告</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">产品展示</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#members">人员名单</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 内容区域 -->
+    <div class="content-container">
+        <!-- 首页 -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h1 class="display-4 fw-bold">梦笔笙花工作室</h1>
+                    <p class="lead">执梦之笔，绘笙笙不息，书繁花盛景</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="content-card">
+                            <h3>关于我们</h3>
+                            <p>梦笔笙花工作室成立于2020年，是一个专注于软件开发和技术创新的团队。我们致力于为用户提供高质量的产品和服务。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="content-card">
+                            <h3>我们的使命</h3>
+                            <p>通过技术创新和优质服务，为用户创造价值，推动行业发展，成为软件开发领域的领导者。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="content-card">
+                            <h3>我们的愿景</h3>
+                            <p>成为最受尊敬的技术团队，打造最具影响力的产品，为用户提供最优质的体验。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card">
+                            <h3>核心价值观</h3>
+                            <p>用户至上、创新驱动、团队协作、追求卓越是我们的核心价值观，指引着我们前进的方向。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card">
+                            <h3>加入我们</h3>
+                            <p>我们欢迎有志之士加入我们的团队，一起创造更美好的未来。如果你对技术充满热情，请联系我们。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 最新消息 -->
+        <section id="news" class="section">
+            <div class="container">
+                <h2 class="section-title">最新消息</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div id="news-container">
+                            <!-- 新闻内容将通过JavaScript动态加载 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 官方公告 -->
+        <section id="announcements" class="section">
+            <div class="container">
+                <h2 class="section-title">官方公告</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div id="announcements-container">
+                            <!-- 公告内容将通过JavaScript动态加载 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品展示 -->
+        <section id="products" class="section">
+            <div class="container">
+                <h2 class="section-title">产品展示</h2>
+                <div class="row" id="products-container">
+                    <!-- 产品内容将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品详情页 -->
+        <div id="product-detail" class="product-detail-container" style="display: none;">
+            <div class="container">
+                <button id="back-to-products" class="btn btn-outline-primary mb-4">
+                    <i class="bi bi-arrow-left"></i> 返回产品列表
+                </button>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img id="product-detail-image" src="" alt="产品图片" class="product-detail-image">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 id="product-detail-title" class="product-detail-title"></h1>
+                        <div id="product-detail-meta" class="product-detail-meta"></div>
+                        <div id="product-detail-description" class="product-detail-description"></div>
+                        <div id="product-detail-actions">
+                            <a id="product-download-link" href="#" class="btn btn-primary me-2" target="_blank">
+                                <i class="bi bi-download"></i> 下载程序
+                            </a>
+                            <a id="product-use-link" href="#" class="btn btn-success" target="_blank">
+                                <i class="bi bi-box-arrow-up-right"></i> 前往使用
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 人员名单 -->
+        <section id="members" class="section">
+            <div class="container">
+                <h2 class="section-title">人员名单</h2>
+                <div class="row" id="members-container">
+                    <!-- 成员内容将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们 -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">联系我们</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="content-card text-center contact-item" data-type="wechat">
+                            <i class="bi bi-wechat fs-1 mb-3 text-success"></i>
+                            <h3>微信公众号</h3>
+                            <p>关注我们的公众号获取最新资讯</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="content-card text-center contact-item" data-type="qq-group">
+                            <i class="bi bi-chat-dots fs-1 mb-3 text-primary"></i>
+                            <h3>QQ群</h3>
+                            <p>加入我们的QQ群与团队交流</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="content-card text-center contact-item" data-type="qq-channel">
+                            <i class="bi bi-chat-square-dots fs-1 mb-3 text-info"></i>
+                            <h3>QQ频道</h3>
+                            <p>加入我们的QQ频道获取更多支持</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="content-card text-center contact-item" data-type="email">
+                            <i class="bi bi-envelope fs-1 mb-3 text-warning"></i>
+                            <h3>电子邮件</h3>
+                            <p>通过邮件联系我们的团队</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 模态窗口 -->
+    <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel">详细信息</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="detailModalBody">
+                    <!-- 模态窗口内容将通过JavaScript动态加载 -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
