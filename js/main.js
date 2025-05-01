@@ -277,7 +277,7 @@ function initContactItems() {
                         <div class="text-center">
                             <img src="images/qq-group-qr.jpg" alt="QQ群二维码" class="img-fluid mb-3" style="max-width: 200px;">
                             <p>群号：941211599</p>
-                            <p>扫描二维码或点击<a href="https://qm.qq.com/cgi-bin/qm/qr?k=941211599" target="_blank">这里</a>加入我们的QQ群</p>
+                            <p>扫描二维码或点击<a href="https://qm.qq.com/cgi-bin/qm/qr?authKey=A9d5CviFo61ev%2BzkN7vGRyc5AdfC3wbyaYNDTNER293GtXrB%2BlJuZj6hjxzRZ2fK&k=f7gThBeHfzk-lSyzXXmSAJ_T83OyfefY&noverify=0" target="_blank">这里</a>加入我们的QQ群</p>
                         </div>
                     `;
                     break;
@@ -287,7 +287,7 @@ function initContactItems() {
                         <div class="text-center">
                             <img src="images/qq-channel-qr.jpg" alt="QQ频道二维码" class="img-fluid mb-3" style="max-width: 200px;">
                             <p>频道ID：mbshworkshop</p>
-                            <p>扫描二维码或点击<a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=mbshworkshop" target="_blank">这里</a>加入我们的QQ频道</p>
+                            <p>扫描二维码或点击<a href="https://pd.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&attaContentID=eff46c202bc542b3ae802b5266d150e2&biz=ka&businessType=5&from=246611&inviteCode=2nM7Yycd0lr&mainSourceId=qr_code&subSourceId=pic4&businessType=5" target="_blank">这里</a>加入我们的QQ频道</p>
                         </div>
                     `;
                     break;
