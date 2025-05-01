@@ -296,7 +296,7 @@ function initContactItems() {
                     content = `
                         <div class="text-center">
                             <i class="bi bi-envelope-fill fs-1 mb-3 text-warning"></i>
-                            <p>联系邮箱：mengbishenghua2024@163.com</p>
+                            <p>联系邮箱：mbshworkshop@163.com</p>
                             <p>技术支持：mengbishenghua2024@163.com</p>
                             <p>商务合作：w2651436021@163.com</p>
                         </div>
