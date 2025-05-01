@@ -286,8 +286,8 @@ function initContactItems() {
                     content = `
                         <div class="text-center">
                             <img src="images/qq-channel-qr.jpg" alt="QQ频道二维码" class="img-fluid mb-3" style="max-width: 200px;">
-                            <p>频道ID：029sc9p00k</p>
-                            <p>扫描二维码或点击<a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=029sc9p00k" target="_blank">这里</a>加入我们的QQ频道</p>
+                            <p>频道ID：mbshworkshop</p>
+                            <p>扫描二维码或点击<a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=mbshworkshop" target="_blank">这里</a>加入我们的QQ频道</p>
                         </div>
                     `;
                     break;
